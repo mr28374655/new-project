@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+  
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>my website</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="images/logo-alt.webp" alt="this is logo">
+                <ul>
+                    <li class="list" id="home"><a href="#">Home</a></li>
+                    <li class="list"><a href="#">login</a></li>
+                    <li class="list"><a href="#">portfolio</a></li>
+                    <li class="list"><a href="#">About</a></li>
+                    <li class="list"><a href="#">prices</a></li>
+                    <li class="list"><a href="#">team</a></li>
+                    <li class="list"><a href="#">blog</a></li>
+                    <li class="list"><a href="#">Contact us</a></li>
+                    <div class="clear"></div>
+                </ul>
 
-You can use the [editor on GitHub](https://github.com/mr28374655/new-project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mr28374655/new-project/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+            </nav>
+            <div id="big">
+                <div class="first">
+                    <h1>Best Learning Software</h1>
+                    <p>Our service is free to users because vendors pay us when
+                        they receive web
+                        traffic. We list all vendors - not just those that pay
+                        us
+                        - in our comprehensive directoryso that you can compare,
+                        sort and filter
+                        your results to make the most informed decision
+                        possible. </p>
+                    <button id="get"><a href="#">get started</a></button>
+                    <button id="learn"><a href="#">learn more</a></button>
+                </div>
+            </div>
+        </header>
+    </body>
+</html>
